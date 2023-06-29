@@ -1,0 +1,116 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar-nav .nav-item {
+    margin-right: 0.5rem;
+}
+
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-color: #f5f5f5;
+    color: #000;
+    transition: background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    background-color: #e0e0e0;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+}
+.logo{
+    background-image: url("/images/menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* <a href="https://www.flaticon.com/free-icons/menu" title="menu icons">Menu icons created by Freepik - Flaticon</a> */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #F0F2F5;
+    border-radius: 24px;
+    padding: 8px;
+    height: 30px;
+    width: 300px;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .search-button svg {
+    fill: #6C757D;
+    width: 20px;
+    height: 20px;
+  }
+  
+  main {
+    background-image: url("/images/ba.png");
+    height: 900px;
+    width: 100vw; /* Use viewport width */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Use cover to fill the entire background */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li.image-button {
+    background-image: url("/images/2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    margin: 10px;
+}
+li {
+    margin-left: 5px;
+}
+
+li.image-button:hover {
+    background-image: url("/images/1.png");
+}
+/* <a href="https://www.flaticon.com/free-icons/windows" title="windows icons">Windows icons created by Smashicons - Flaticon</a> */
+li.cmd-button {
+    background-image: url("/images/cmd.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    margin: 15px;
+}
